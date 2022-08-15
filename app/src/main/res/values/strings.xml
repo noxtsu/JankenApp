@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JankenApp</string>
+
+    <string name="janken_label">じゃんけん…</string>
+
+
+</resources>
