@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="UsingOnCheckInXml">
 
     <TextView
         android:id="@+id/jankenLabel"
@@ -17,18 +18,18 @@
 
 
     <TextView
-        android:id="@+id/select_dialogLabel"
+        android:id="@+id/hand_selectLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="手を選んでね"
+        android:text="@string/hand_select_label"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/handBtn1"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="グー"
+        android:text="@string/select_gu"
         android:layout_marginTop="80dp"
 
         android:onClick="judgeJanken"/>
@@ -37,7 +38,7 @@
         android:id="@+id/handBtn2"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="チョキ"
+        android:text="@string/select_choki"
         android:layout_marginTop="6dp"
 
         android:onClick="judgeJanken"/>
@@ -47,7 +48,7 @@
         android:id="@+id/handBtn3"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="パー"
+        android:text="@string/select_pa"
         android:layout_marginTop="6dp"
 
         android:onClick="judgeJanken"/>
